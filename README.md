@@ -1,4 +1,4 @@
-# SpaceStar
+# StarSpace
 The Rocket Flight simulator, SpaceStar
 
 Instructions:
