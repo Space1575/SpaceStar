@@ -1,6 +1,5 @@
 import pygame
 from sys import exit
-import time
 import os
 
 pygame.display.init()
@@ -10,11 +9,11 @@ FONT = pygame.font.SysFont('couriernew', 28)
              
 pygame.display.set_caption(("SpaceStar"))
 
-capsule1 = pygame.image.load(os.path.join('Assets', 'capsule.png'))
-left_fuel_tank = pygame.image.load(os.path.join('Assets', 'Left fuel tank.png'))
-right_fuel_tank = pygame.image.load(os.path.join('Assets', 'Right fuel ank.png'))
-body = pygame.image.load(os.path.join('Assets', '2nd stage.png'))
-spacestar = pygame.image.load(os.path.join('Assets','SpaceStar.png'))
+capsule1 = pygame.image.load( 'capsule.png')
+left_fuel_tank = pygame.image.load('Left fuel tank.png')
+right_fuel_tank = pygame.image.load('Right fuel ank.png')
+body = pygame.image.load('2nd stage.png')
+spacestar = pygame.image.load('SpaceStar.png')
 SpaceStar = pygame.transform.scale(spacestar,(250,150))
 
 W, H = 600, 600
