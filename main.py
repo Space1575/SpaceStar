@@ -223,6 +223,6 @@ def main():
     Fuel2_text()
     pygame.display.update()
     clock.tick(FPS)
-
-Intro()
-main()
+if __name__== '__main__':
+  Intro()
+  main()
